@@ -149,7 +149,7 @@ h2{
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-   padding-left: 10rem;
+   padding-left: 13rem;
  
     
 }
@@ -160,7 +160,7 @@ h2{
     
 }
 .home .home-slider .image img{
-    width: 100%;
+    width: 0%;
     height: 100;
     border-radius: 1.5rem;
     
