@@ -542,7 +542,8 @@ font-size: 1.5rem;
     
       header .navbar{
           position: absolute;
-          top: 100%; left: 0; right: 0;
+          /*top: 100%; left: 10; right: 10;*/
+          top: 100%; left: 5px; right: 5px;
           background: #fff;
           border-top: .1rem  solid rgba(0, 0, 0, .2);
           border-bottom: .1rem  solid rgba(0, 0, 0, .2);
@@ -617,8 +618,9 @@ font-size: 1.5rem;
 
 .home .home-slider .slide .image img{
     width: 100%;
-   height: 80%;
-   
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
 
    }
 
