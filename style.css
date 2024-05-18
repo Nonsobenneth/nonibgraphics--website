@@ -543,7 +543,7 @@ font-size: 1.5rem;
       header .navbar{
           position: absolute;
           /*top: 100%; left: 10; right: 10;*/
-          top: 100%; left: 5px; right: 5px;
+          top: 100%; left: 0px; right: 0px;
           background: #fff;
           border-top: .1rem  solid rgba(0, 0, 0, .2);
           border-bottom: .1rem  solid rgba(0, 0, 0, .2);
@@ -589,7 +589,11 @@ font-size: 1.5rem;
 #search-form #search-box{
     width: 90%;
     margin: 0 1rem;
-}.home .home-slider .slide .image img{
+}
+
+
+
+.home .home-slider .slide .image img{
  width: 100%;
  height: 60%;
 
@@ -615,13 +619,10 @@ font-size: 1.5rem;
 .order form .inputBox .input{
     width: 80%;
 }
-
 .home .home-slider .slide .image img{
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-
+    height: 60%;
+   
    }
 
 .home .home-slider .slide .content .btn{
