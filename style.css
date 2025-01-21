@@ -612,6 +612,7 @@ font-size: 1.5rem;
         font-size: 50%;
     
     }
+    
     .work .product-box .box img{
     
     width: 100%;
@@ -621,7 +622,7 @@ font-size: 1.5rem;
 }
 .home .home-slider .slide .image img{
     width: 100%;
-    height: 60%;
+    height: 100%;
    
    }
 
